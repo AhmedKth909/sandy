@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ذكريات سندوسة</title>
+    <!-- ملف التنسيقات -->
+    <link rel="stylesheet" href="sandy2.css">
+</head>
+<body>
+    <!-- الخلفية -->
+    <div class="background"></div>
+
+    <!-- العنوان -->
+    <header>
+        <h1>سندوسة 💖</h1>
+    </header>
+
+    <!-- البطاقات -->
+    <main class="cards-container">
+        <div class="card" data-info="💖أول صورة عملتلك ياها">
+            <img src="images/p1.png" alt="ذكرى 1">
+        </div>
+        <div class="card" data-info="صورة للمكتب😍">
+            <img src="images/p2.png" alt="ذكرى 2">
+        </div>
+        <div class="card" data-info="صورةللحيط✨">
+            <img src="images/p3.png" alt="ذكرى 3">
+        </div>
+        <div class="card" data-info="أول شخرة">
+            <img src="images/p4.png" alt="ذكرى 4">
+        </div>
+    </main>
+
+    <!-- النافذة المنبثقة -->
+    <div class="modal" id="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="modal-caption"></div>
+    </div>
+
+    <!-- ملف JavaScript -->
+    <script src="sandy3.js"></script>
+</body>
+</html>
